@@ -1,0 +1,138 @@
+      
+/************#2 #css #elements************/
+         /* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+/***********Global***********/
+
+ * {
+    /* #2 #font #faces */
+    font-family: 'Roboto', 'Arial', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+.uppercase-class {
+    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+    text-transform: uppercase;
+}
+
+/***********App bar***********/
+
+/***********Channels list***********/
+
+ul {
+    /*  #2 #channelmenutype. Remove list style type.*/
+    list-style-type: none;
+    background-color: white;
+}
+
+ul li {
+    font-size: 16px;
+    padding: 16px;
+    height: 48px;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+
+li img {
+    /*Image is set to middle in channel tile*/
+    vertical-align: middle;
+}
+
+.selected {
+    /*Selected element*/
+    border-left: 4px solid #3F51B5;
+}
+
+/***********Tab bar***********/
+
+#tabbar {
+    background-color:white;
+}
+
+#tabbar button {
+    /*Button has white background-color. Font and height is set. Padding between content and border*/
+    background-color: white;
+    border: none;
+    font-size: 13px;
+    width: 33%;
+    height: 72px;
+    padding:16px;
+}
+
+#tabbar img {
+    /*Image appeared as block element. 4 px is between the image and text*/
+    display: block;
+    margin:auto;
+    padding-bottom: 4px;
+}
+
+#tabbar .selected {
+    /*Selected element*/
+    border-bottom: 4px solid #3F51B5;
+}
+/***********Messages***********/
+
+.message {
+    /*General width is set to 80%.*/
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%;
+}
+
+a {
+    /* #2 #font #w3w locations are now doisplayed black color. */
+    color: black;
+}
+
+.message h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+
+.message p {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.message button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+    /* #2 #font capital #letters */
+}
+
+.message em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+
+.message-own{
+    /* #metadata of own message*/
+    margin-left: 17.5%;
+}
+
+
+
